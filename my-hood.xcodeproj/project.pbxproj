@@ -15,6 +15,7 @@
 		2E86B7321C6A40A2001888ED /* my_hoodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E86B7311C6A40A2001888ED /* my_hoodTests.swift */; };
 		2E86B73D1C6A40A2001888ED /* my_hoodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E86B73C1C6A40A2001888ED /* my_hoodUITests.swift */; };
 		2E86B74B1C6A4132001888ED /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E86B74A1C6A4132001888ED /* Post.swift */; };
+		2E86B7501C6A54AC001888ED /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E86B74F1C6A54AC001888ED /* PostCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		2E86B73C1C6A40A2001888ED /* my_hoodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = my_hoodUITests.swift; sourceTree = "<group>"; };
 		2E86B73E1C6A40A2001888ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E86B74A1C6A4132001888ED /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		2E86B74F1C6A54AC001888ED /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +101,10 @@
 		2E86B71B1C6A40A2001888ED /* my-hood */ = {
 			isa = PBXGroup;
 			children = (
-				2E86B74C1C6A413E001888ED /* Model */,
 				2E86B71C1C6A40A2001888ED /* AppDelegate.swift */,
-				2E86B71E1C6A40A2001888ED /* ViewController.swift */,
+				2E86B74E1C6A547D001888ED /* Controller */,
+				2E86B74D1C6A5468001888ED /* View */,
+				2E86B74C1C6A413E001888ED /* Model */,
 				2E86B7201C6A40A2001888ED /* Main.storyboard */,
 				2E86B7231C6A40A2001888ED /* Assets.xcassets */,
 				2E86B7251C6A40A2001888ED /* LaunchScreen.storyboard */,
@@ -134,6 +137,22 @@
 				2E86B74A1C6A4132001888ED /* Post.swift */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		2E86B74D1C6A5468001888ED /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2E86B74F1C6A54AC001888ED /* PostCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		2E86B74E1C6A547D001888ED /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2E86B71E1C6A40A2001888ED /* ViewController.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,6 +289,7 @@
 				2E86B74B1C6A4132001888ED /* Post.swift in Sources */,
 				2E86B71F1C6A40A2001888ED /* ViewController.swift in Sources */,
 				2E86B71D1C6A40A2001888ED /* AppDelegate.swift in Sources */,
+				2E86B7501C6A54AC001888ED /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
