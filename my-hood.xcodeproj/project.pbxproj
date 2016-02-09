@@ -16,6 +16,7 @@
 		2E86B73D1C6A40A2001888ED /* my_hoodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E86B73C1C6A40A2001888ED /* my_hoodUITests.swift */; };
 		2E86B74B1C6A4132001888ED /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E86B74A1C6A4132001888ED /* Post.swift */; };
 		2E86B7501C6A54AC001888ED /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E86B74F1C6A54AC001888ED /* PostCell.swift */; };
+		2E86B7521C6A5F7A001888ED /* AddPostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E86B7511C6A5F7A001888ED /* AddPostVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		2E86B73E1C6A40A2001888ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E86B74A1C6A4132001888ED /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		2E86B74F1C6A54AC001888ED /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		2E86B7511C6A5F7A001888ED /* AddPostVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPostVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,12 +104,10 @@
 			isa = PBXGroup;
 			children = (
 				2E86B71C1C6A40A2001888ED /* AppDelegate.swift */,
-				2E86B74E1C6A547D001888ED /* Controller */,
-				2E86B74D1C6A5468001888ED /* View */,
 				2E86B74C1C6A413E001888ED /* Model */,
-				2E86B7201C6A40A2001888ED /* Main.storyboard */,
+				2E86B74D1C6A5468001888ED /* View */,
+				2E86B74E1C6A547D001888ED /* Controller */,
 				2E86B7231C6A40A2001888ED /* Assets.xcassets */,
-				2E86B7251C6A40A2001888ED /* LaunchScreen.storyboard */,
 				2E86B7281C6A40A2001888ED /* Info.plist */,
 			);
 			path = "my-hood";
@@ -142,6 +142,8 @@
 		2E86B74D1C6A5468001888ED /* View */ = {
 			isa = PBXGroup;
 			children = (
+				2E86B7251C6A40A2001888ED /* LaunchScreen.storyboard */,
+				2E86B7201C6A40A2001888ED /* Main.storyboard */,
 				2E86B74F1C6A54AC001888ED /* PostCell.swift */,
 			);
 			name = View;
@@ -151,6 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				2E86B71E1C6A40A2001888ED /* ViewController.swift */,
+				2E86B7511C6A5F7A001888ED /* AddPostVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -288,6 +291,7 @@
 			files = (
 				2E86B74B1C6A4132001888ED /* Post.swift in Sources */,
 				2E86B71F1C6A40A2001888ED /* ViewController.swift in Sources */,
+				2E86B7521C6A5F7A001888ED /* AddPostVC.swift in Sources */,
 				2E86B71D1C6A40A2001888ED /* AppDelegate.swift in Sources */,
 				2E86B7501C6A54AC001888ED /* PostCell.swift in Sources */,
 			);
